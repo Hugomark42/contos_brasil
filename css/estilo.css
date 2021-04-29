@@ -1,0 +1,154 @@
+h1, h2 {
+
+    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+}
+body{
+
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+
+
+}
+
+
+p{
+    font-family: 'Syne Mono', monospace;
+}
+header{
+    background-color: blueviolet;
+    padding: 10px;
+}
+footer{
+    clear: both;
+
+}
+
+footer p{
+
+    text-align: center;
+}
+
+footer iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+/* regras para colunas e aparência do cabeçalho e menu */
+
+.logo{
+
+    float: left;
+
+    width: 40%;
+
+}
+
+header nav{
+
+    float: right;
+
+    width: 60%;
+
+}
+
+header{
+
+    height: 70px;
+
+}
+
+header nav ul{
+
+    list-style-type: none;
+
+}
+
+header nav ul li, header nav ul li a{
+
+    display: inline-block;
+
+}
+
+header nav ul li{
+
+    margin: 0 20px 0 0;
+
+}
+
+header nav ul li a{
+
+    font-family: 'Syne Mono', monospace;
+    
+    background-color:blueviolet;
+
+    padding: 5px;
+
+    color:black;
+
+    text-decoration: none;
+
+}
+
+header nav ul li a{
+
+    background-color:blueviolet;
+
+    padding: 5px;
+
+    color: black;
+
+    text-decoration: none;
+
+}
+
+.conteudo{
+
+    /* Limpa a flutuação existente nos elementos do header */
+
+    clear: both;
+    padding: 20px;
+}
+
+.coluna1{
+    width: 25%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.coluna2{
+    width: 70%;
+    float: right;
+    margin-bottom: 40px;
+    border-left: 3px solid blueviolet;
+    padding-left: 20px;
+}
+
+img{
+
+    box-shadow: 5px 5px 8px #000;
+    
+    }
+
+
+    /* MODIFICA O COMPORTAMENTO DAS COLUNAS E menu
+    QUANDO ACESSADO NO CELULAR */
+
+    @media screen and (max-width: 576px) {
+        .coluna1, .coluna2{
+            float: none;
+            width: 100%;
+        }
+    }
+    
+        .logo, header nav{
+            float: none;
+            width: 100%;
+        }
+        header{
+            height: auto;
+        }
+        .logo h1{
+            font-size: 1em;
+        }

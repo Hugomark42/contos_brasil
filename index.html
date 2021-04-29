@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contos Brasil - seu site sobre literatura</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playfair+Display:wght@500&family=Syne+Mono&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+body{
+    background-image:url('img/tela-de-fundo.jpg');
+    background-attachment: fixed;
+    
+}
+        .coluna1, .coluna2{
+            width: 45%;
+        }
+        
+        figure{
+
+        height: 450px;
+
+        overflow: hidden;
+
+        }
+
+        .popup{
+            position: fixed;
+            right: 40px;
+            bottom: 20px;
+            width: 350px;
+            width: 350px;
+            padding: 10px;
+            background-color: blueviolet;
+            border: 1px solid black;
+            display: none;
+        }
+
+        .fechar{
+            position:absolute;
+            right: -30px;
+            top: 0;
+            cursor: pointer;
+
+        }
+    .abre-popup{
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .abre-popup, .abre-popup h2{
+            width: fit-content;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    
+    <!-- Cabeçalho do site com logotipo e menu -->
+
+    <header>
+<div class="logo">
+    <h1 title="Seu site com grandes crônicas da literatura brasileira"><i class="fa fa-book-reader fa-2x"></i> Contos Brasil</h1>
+</div>
+
+<nav>
+
+    <ul>
+
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="o-homem-trocado.html">O homem trocado</a></li>
+
+        <li><a href="vida-de-cinema.html">Vida de Cinema</a></li>
+
+        <li><a href="amor.html">Amor</a></li>
+
+        <li><a href="felicidade-clandestina.html">Felicidade Clandestina</a></li>
+
+    </ul>
+
+</nav>
+
+
+
+
+
+    </header>
+
+    <section class="abre-popup">
+        <h2>Participe de um sorteio de livro</h2>
+    </section>
+
+    <section class="popup">
+        <button type="button" class="fechar"> X </button>
+        <p>Preencha o seu nome e email e concorra
+            a um livro de crônicas da Clarisse Lispector.
+        </p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    
+    </section>
+
+     <!-- Área de conteúdo - contos e fotos -->
+     <div class="conteudo">
+        <div class="coluna1">
+            <figure>
+                <h2>Luiz Fernando Veríssimo</h2>
+               <img src="img/foto-luiz-fernando.jpg" width="90%" alt="Foto do Escritor Luis Fernando Veríssimo com pose">
+            </figure>
+            <p>Luis Fernando Veríssimo nasceu em 26 de setembro de 1936 em Porto Alegre, no Rio Grande do Sul. É o escritor que mais vende livros no Brasil.
+
+                O trabalho do autor também é conhecido na TV, que adaptou para minissérie o livro Comédias da Vida Privada. O programa recebeu o prêmio da crítica como o melhor da TV brasileira.
+                
+                É filho do escritor Érico Veríssimo e Mafalda Veríssimo. De 1943 a 45, Érico morou com a família nos Estados Unidos, onde lecionou na Universidade de Berkeley, na Califórnia.
+                
+                Ao retornar ao Brasil, em 1956, começou a trabalhar na editora Globo de Porto Alegre. Em 1962 transferiu-se para o Rio de Janeiro onde exerceu as atividades de tradutor e redator de publicações comerciais.
+                
+                De volta a Porto Alegre em 1967, Luis Fernando começou a trabalhar como copydesk do jornal Zero Hora e como redator de publicidade.
+                
+                Em pouco tempo já mantinha uma coluna diária, que o consagrou por seu estilo humorístico e uma série de cartuns e histórias em quadrinhos. O primeiro livro, "O Popular", de crônicas e cartuns, foi publicado em 1973.
+                
+            </p>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/DZRRsTZl4VQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="coluna2">
+            <figure>
+                <h2>Clarice Lispector</h2>
+               <img src="img/foto-clarisse-lispector.jpg" width="90%" alt="Foto da Escritora Clarisse Lispector seguando flores">
+            </figure>
+
+            <p>
+                Clarice Lispector nasceu em Tchetchelnik, Ucrânia, no dia 10 de dezembro de 1920. Chegou ao Brasil em março de 1922, passou a infância na cidade do Recife e em 1937 mudou-se para o Rio de Janeiro, onde se formou em Direito.
+
+                Clarice Lispector estreou na literatura ainda muito jovem com o romance "Perto do Coração Selvagem" (1943), com uma visão interiorizada do mundo da adolescência, que teve calorosa acolhida da crítica e recebeu o Prêmio Graça Aranha.
+                
+                Em 1944, recém-casada com um diplomata, viajou para Nápoles, onde serviu num hospital durante os últimos meses da Segunda Guerra. Depois de uma longa estada na Suíça e Estados Unidos, voltou a morar no Rio de Janeiro.
+                
+                Clarice Lispector começou a colaborar na imprensa em 1942 e, ao longo de toda a vida, nunca se desvinculou totalmente do jornalismo. Trabalhou na Agência Nacional e nos jornais A Noite e Diário da Noite. Foi colunista do Correio da Manhã e realizou diversas entrevistas para a revista Manchete.
+
+
+
+                
+                Clarice Lispector faleceu no Rio de Janeiro no dia 9 de dezembro de 1977.</p>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/ohHP1l2EVnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+        </div>
+    </div>
+
+    <!-- Rodapé com créditos e outros conteúdos -->
+    <!-- <footer onclick="javascript:alert('Olá mundo!!')"> -->
+        <footer>
+        <p>Onde estamos?</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14668.763839163414!2d-45.8815716!3d-23.1997104!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdea350df7947b9ec!2sLivraria%20Saraiva!5e0!3m2!1spt-BR!2sbr!4v1617105294477!5m2!1spt-BR!2sbr" width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <p>&copy; 2021 - Contos Brasil - Desenvolvido por Hugo mark</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        //Isto é um comentário de linha
+        /* A sintaxe para execução de um método
+        a partir de um elemento é feita conforme abaixo: */
+        /* document.getElementById('rodape').onclick = function(){
+            console.log('Bom dia, a data atual é ' + Date());
+        } */
+
+        $('#rodape').click(function(){
+            console.log('Bom dia, a data atual é ' + Date());
+        })
+        
+
+        //Exibe o popup ao clicar em abre popup
+        $('.abre-popup').click(function(){
+            // $('.popup').css('display','block');
+            // $('.popup').fadeIn(1500);
+            $('.popup').slideDown();
+
+        });
+
+        $('.fechar').click(function(){
+        $('.popup').fadeOut();
+
+})
+
+    </script>
+
+
+</body>
+
+
+</html>
